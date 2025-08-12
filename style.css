@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #0b3d0b;
+    color: white;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.card-row img {
+    width: 80px;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.card-row img:hover {
+    transform: scale(1.1);
+}
+
+.center {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 120px;
+}
